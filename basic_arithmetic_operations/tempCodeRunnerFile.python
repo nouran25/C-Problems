@@ -1,0 +1,21 @@
+name1 = "hello"
+reverse_string = name1[::-1]
+print(reverse_string)
+
+name2 = "racecar"
+reverse_string = name2[::-1]
+is_palindrome = name2 == reverse_string
+print(is_palindrome)
+
+name3 = "hello"
+vowels = "aeiou"
+count_vowls = len([char for char in name3 if char in vowels])
+print(count_vowls)
+ 
+length = int(input("Enter the length of the rectangle: "))
+width = int(input("Enter the width of the rectangle: "))
+area  = length * width
+print("The area of the rectangle is" , area)
+
+temp = int(input("Please enter a temperature in Fahrenheit: "))
+print("Celsius = " , (temp - 32) * 5/9 )

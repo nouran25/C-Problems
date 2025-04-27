@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1650764126 source:c:\users\noura\onedrive\desktop\time.c\main.c
+	<stdio.h>
+	<stdlib.h>
+
